@@ -1,0 +1,13 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/i18n",
+        "src/modules/app/i18n",
+        "src/modules/auth/i18n",
+        "src/modules/app/modules/administration/i18n",
+        "src/modules/app/modules/dashboard/i18n",
+        "src/modules/app/modules/profile/i18n",
+        "src/modules/app/modules/administration/modules/company/i18n",
+        "src/modules/app/modules/administration/modules/organization/i18n",
+        "src/modules/app/modules/administration/modules/settings/i18n"
+    ]
+}
