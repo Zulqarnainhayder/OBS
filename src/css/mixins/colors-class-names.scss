@@ -1,0 +1,31 @@
+@use "../quasar.variables" as variables;
+
+@mixin colors-class-names {
+  @each $key, $value in variables.$colors {
+    .bg-#{$key} {
+      background-color: $value;
+    }
+    .text-#{$key} {
+      color: $value;
+    }
+    .svg-#{$key} svg {
+      color: $value;
+    }
+    .text-hover-#{$key}:hover {
+      color: $value;
+    }
+
+    // Major colors
+    .text-hover-primary:hover {
+      color: variables.$primary;
+    }
+    .svg-primary svg {
+      color: variables.$primary;
+    }
+    .svg-hover-primary:hover svg {
+      color: variables.$primary;
+    }
+  }
+}
+
+@include colors-class-names;
